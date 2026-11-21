@@ -194,7 +194,7 @@ PostgreSQL ... - test - postgres@127.0.0.1:.../tests - Ref.: 2s - Duration mode:
    IO: 300/s max iops, 200B/s - 100/s read, 300B/s - 200/s write
    Load average: 1 5 15
                                 RUNNING QUERIES
-PID    DATABASE              USER       CLIENT IOW              state Query
+PID     DATABASE              USER       CLIENT IOW              state Query
 <BLANKLINE>
 <BLANKLINE>
 <BLANKLINE>
@@ -217,7 +217,7 @@ PostgreSQL ... - test - postgres@127.0.0.1:.../tests - Ref.: 2s - Duration mode:
  * Worker processes: 3/8 total, 1/8 logical workers, 2/8 parallel workers
    Other processes & info: 3/3 autovacuum workers, 1/10 wal senders, 0 wal receivers, 10/10 repl. slots
                                 RUNNING QUERIES
-PID    DATABASE              USER       CLIENT IOW              state Query
+PID     DATABASE              USER       CLIENT IOW              state Query
 <BLANKLINE>
 <BLANKLINE>
 <BLANKLINE>
@@ -242,7 +242,7 @@ PostgreSQL ... - test - postgres@127.0.0.1:.../tests - Ref.: 2s - Duration mode:
    Sessions: 6/100 total, 1 active, 1 idle, 10 idle in txn, 0 idle in txn abrt, 3 waiting
    Activity: 15 tps, 10 insert/s, 20 update/s, 30 delete/s, 5 temp files, 11.50M temp size
                                 RUNNING QUERIES
-PID    DATABASE              USER       CLIENT IOW              state Query
+PID     DATABASE              USER       CLIENT IOW              state Query
 <BLANKLINE>
 <BLANKLINE>
 <BLANKLINE>
@@ -266,7 +266,7 @@ PID    DATABASE              USER       CLIENT IOW              state Query
 ------------------------------------------------------------------------------------------- sending key 'i' --------------------------------------------------------------------------------------------
 PostgreSQL ... - test - postgres@127.0.0.1:.../tests - Ref.: 2s - Duration mode: query
                                 RUNNING QUERIES
-PID    DATABASE              USER       CLIENT IOW              state Query
+PID     DATABASE              USER       CLIENT IOW              state Query
 <BLANKLINE>
 <BLANKLINE>
 <BLANKLINE>
@@ -320,7 +320,7 @@ Press any key to exit.
 ------------------------------------------------------------------------------------------- sending key 'z' --------------------------------------------------------------------------------------------
 PostgreSQL ... - test - postgres@127.0.0.1:.../tests - Ref.: 2s - Duration mode: query
                                 RUNNING QUERIES
-PID    DATABASE              USER       CLIENT IOW              state Query
+PID     DATABASE              USER       CLIENT IOW              state Query
 <BLANKLINE>
 <BLANKLINE>
 <BLANKLINE>
@@ -365,7 +365,7 @@ PostgreSQL ... - test - postgres@127.0.0.1:.../tests - Ref.: 2s - Duration mode:
  * Worker processes: 3/8 total, 1/8 logical workers, 2/8 parallel workers
    Other processes & info: 3/3 autovacuum workers, 1/10 wal senders, 0 wal receivers, 10/10 repl. slots
                                 RUNNING QUERIES
-PID    DATABASE              USER       CLIENT             state Query
+PID     DATABASE              USER       CLIENT             state Query
 <BLANKLINE>
 <BLANKLINE>
 <BLANKLINE>
@@ -412,7 +412,7 @@ PostgreSQL ... - test - postgres@127.0.0.1:.../tests - Ref.: 2s - Duration mode:
  * Worker processes: 3/8 total, 1/8 logical workers, 2/8 parallel workers
    Other processes & info: 3/3 autovacuum workers, 1/10 wal senders, 0 wal receivers, 10/10 repl. slots
                                 RUNNING QUERIES
-PID    DATABASE              USER       CLIENT             state Query
+PID     DATABASE              USER       CLIENT             state Query
 <BLANKLINE>
 <BLANKLINE>
 <BLANKLINE>

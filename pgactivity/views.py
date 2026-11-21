@@ -383,7 +383,7 @@ def get_indent(ui: UI) -> str:
     '                         '
     >>> ui = UI.make(flag=Flag.PID | Flag.DATABASE | Flag.APPNAME | Flag.RELATION)
     >>> get_indent(ui)
-    '                                                           '
+    '                                                            '
     """
     return " " * sum(c.min_width + 1 for c in ui.columns() if c.name != "Query")
 

@@ -390,7 +390,8 @@ class UI:
         add_column(
             Flag.PID,
             key="pid",
-            min_width=6,
+            # PIDs go up to 4194304 on Linux (PID_MAX_LIMIT on 64-bit).
+            min_width=7,
             default_color="cyan",
         )
         add_column(
@@ -478,7 +479,8 @@ class UI:
         add_column(
             Flag.XMIN,
             key="xmin",
-            min_width=8,
+            # Transaction IDs are 32-bit, so up to 4294967295.
+            min_width=10,
             default_color="cyan",
         )
 
